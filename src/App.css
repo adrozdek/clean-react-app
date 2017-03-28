@@ -1,0 +1,126 @@
+.App {
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    height: 100%;
+    min-height: 100vh;
+    border: 1px solid darkgrey;
+    opacity: 0.93;
+}
+
+.title {
+    background-color: darkgrey;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.search-label {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.search-form {
+    margin: 20px 0 30px;
+}
+
+.form-group.search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.found-todos {
+    margin-top: 5px;
+}
+
+.color {
+    background-color: darkgrey;
+    padding: 3px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.delete {
+    position: relative;
+    right: 20px;
+    font-size: 1.7em;
+}
+
+.todos-list {
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+}
+
+.item {
+    margin: 5px;
+}
+
+.all-todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px dashed darkgrey;
+}
+.item-text {
+    display: inline-block;
+    width: 85%;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.btn-danger {
+   margin-left: 5px;
+}
+
+@media (max-width: 746px) {
+    .btn-danger {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
+
+.todo-form {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.todo-form .form-control {
+    margin-top: 5px;
+}
+
+.active-search {
+    display: inline;
+}
+
+.remove-all {
+    margin: 15px 0 30px;
+}
+
+.footer {
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
